@@ -1,0 +1,29 @@
+.container {
+    flex: 1;
+    padding: 20px;
+    width: 80%;
+    overflow-x: auto;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    transition: 0.2s ease-in-out;
+}
+
+.container table th,
+.container table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.container table th {
+    background: #f8f9fa;
+    font-weight: 600;
+}
+
+.container table tr:hover {
+    background: #f1f1f1;
+}
